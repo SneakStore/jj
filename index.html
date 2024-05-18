@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page avec QR Code</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        .header {
+            background-color: #EE3BC3;
+            color: #FFFFFF;
+            padding: 1.5rem 0;
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .qr-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .qr-container img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #FFFFFF;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #3BEEE6;
+            padding: 1rem 0;
+        }
+        .nav a {
+            color: #FFFFFF;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav a:hover {
+            background-color: #2DCAC2;
+        }
+    </style>
+</head>
+<body>
+  
+<nav class="nav">
+        <a href="#avis">Avis</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="qr-container">
+        <img src="https://media.discordapp.net/attachments/1172208856336707655/1240770883862138910/pixelfegze_1.png?ex=6647c56f&is=664673ef&hm=fab50f1da841f674ac54b20db51ccdd02dedfef29fa183f187671b947a701bea&=&format=webp&quality=lossless&width=392&height=451" alt="QR Code">
+    </div>
+  <div class="header">Scannez le code et donnez-nous votre avis</div>
+</body>
+</html>
